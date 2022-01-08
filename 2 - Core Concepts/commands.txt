@@ -1,0 +1,15 @@
+kubectl config set-context $(kubectl config current-context) --namespace=dev # Switch to Namespace
+
+Imperative: Step by step
+
+kubectl run --image=nginx nginx
+kubectl create deployment --image=nginx nginx
+kubectl expose deployment nginx --port 80
+kubectl edit deployment nginx
+kubectl scale deployment nginx --replicas==5
+kubectl set image deployment nginx nginx=nginx:1.18
+
+
+
+
+Declarative: Final result

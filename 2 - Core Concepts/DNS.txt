@@ -1,0 +1,9 @@
+db-service.dev.svc.cluster.local
+Service Name | Namespace | Service (Subdomain) | Domain
+
+NodePorts Range:
+30000 - 32767
+
+
+
+
