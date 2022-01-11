@@ -10,7 +10,8 @@ CREATE OBJECT:
 kubectl run --image=nginx nginx
 kubectl create deployment --image=nginx nginx
 kubectl expose deployment nginx --port 80
-
+kubectl expose pod redis --port=6379 --name redis-service
+kubectl run httpd --image=httpd:alpine --port=80 --expose
 UPDATE OBJECT:
 
 kubectl edit deployment nginx
