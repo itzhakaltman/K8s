@@ -1,0 +1,14 @@
+kubectl get pods --selector app=App1
+kubectl get all --selector env=prod,bu=finance,tier=frontend
+
+
+
+kubectl taint nodes node-name key=value:taint-effect
+
+taint-effect - what happens to Pod that do not tolerate this taint
+
+kubectl taint nodes node-name key=value:NoSchedule -
+kubectl taint nodes node-name key=value:PreferNoSchedule -
+kubectl taint nodes node-name key=value:NoExecute - no for new, if exist pods not tolerate - will be evicted
+
+kubectl taint nodes node1 app=blue:NoSchedule
