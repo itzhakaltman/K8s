@@ -1,0 +1,43 @@
+1 G (Gigabyte) = 1 000 000 000 bytes
+1 M (Megabyte) = 1 000 000 bytes
+1 K (Kilobyte) = 1 000 bytes
+
+1 Gi (Gibibyte) = 1 073 741 824 bytes
+1 Mi (Mebibyte) = 1 048 576 bytes
+1 Ki (Kibibyte) = 1 024 bytes
+
+Default:
+CPU: 1     // 100m //
+MEM: 512 Mi //  268435456 //
+
+
+apiVersion: v1
+kind: LimitRange
+metadata:
+  name: mem-limit-range
+spec:
+  limits:
+  - default:
+      memory: 512Mi
+    defaultRequest:
+      memory: 256Mi
+    type: Container
+
+https://kubernetes.io/docs/tasks/administer-cluster/manage-resources/memory-default-namespace/
+
+
+apiVersion: v1
+kind: LimitRange
+metadata:
+  name: cpu-limit-range
+spec:
+  limits:
+  - default:
+      cpu: 1
+    defaultRequest:
+      cpu: 0.5
+    type: Container
+
+https://kubernetes.io/docs/tasks/administer-cluster/manage-resources/cpu-default-namespace/
+
+https://kubernetes.io/docs/tasks/configure-pod-container/assign-memory-resource

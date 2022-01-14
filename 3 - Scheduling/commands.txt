@@ -12,3 +12,11 @@ kubectl taint nodes node-name key=value:PreferNoSchedule -
 kubectl taint nodes node-name key=value:NoExecute - no for new, if exist pods not tolerate - will be evicted
 
 kubectl taint nodes node1 app=blue:NoSchedule
+
+kubectl label nodes <node-name> <label-key>=<label-value>
+kubectl label nodes node01 size=Large
+
+Node Affinity Types:
+  requiredDuringSchedulingIgnoredDuringExecution
+  preferredDuringSchedulingIgnoredDuringExecution
+  requiredDuringSchedulingRequiredDuringExecution

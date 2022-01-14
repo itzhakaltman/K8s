@@ -12,7 +12,11 @@ spec:
       image: nginx
       ports:
         - containerPort: 8080
-  nodeSelector:
-    size: Large
+      resources:
+        requests:
+          memory: "1Gi"
+          cpu: 1
+        limits:
+          memory: "2Gi"
+          cpu: 2
 
-# kubectl taint nodes node1 app=blue:NoSchedule
