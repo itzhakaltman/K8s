@@ -41,3 +41,11 @@ spec:
 https://kubernetes.io/docs/tasks/administer-cluster/manage-resources/cpu-default-namespace/
 
 https://kubernetes.io/docs/tasks/configure-pod-container/assign-memory-resource
+
+* * * * * * * * * * * * * * * * * * * * * * * 
+
+my-custom-scheduler.service:
+
+ExecStart=/usr/local/bin/kube-scheduler \\
+  --config=/etc/kubernetes/config/kube-sheduler.yaml \\
+  --scheduler-name=my-custom-scheduler
