@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="60dfe20e-38d4-4cb1-9026-91424c7acdfd" name="Default Changelist" comment="-4-">
+      <change beforePath="$PROJECT_DIR$/4 - Logging and Monitoring/notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/4 - Logging and Monitoring/notes.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="23QjbiMLnjlVmnGjx2dMFZEvdGc" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/3 - Scheduling" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/3 - Scheduling" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="60dfe20e-38d4-4cb1-9026-91424c7acdfd" name="Default Changelist" comment="" />
+      <created>1641673277994</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1641673277994</updated>
+    </task>
+    <task id="LOCAL-00001" summary="09-01-2022">
+      <created>1641708024819</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1641708024819</updated>
+    </task>
+    <task id="LOCAL-00002" summary="11-01-2022">
+      <created>1641883385770</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1641883385770</updated>
+    </task>
+    <task id="LOCAL-00003" summary="12-01-2022">
+      <created>1641967903664</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1641967903664</updated>
+    </task>
+    <task id="LOCAL-00004" summary="14-01-2022">
+      <created>1642188296635</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1642188296635</updated>
+    </task>
+    <task id="LOCAL-00005" summary="-4-">
+      <created>1642248986706</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1642248986706</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="09-01-2022" />
+    <MESSAGE value="11-01-2022" />
+    <MESSAGE value="12-01-2022" />
+    <MESSAGE value="14-01-2022" />
+    <MESSAGE value="-4-" />
+    <option name="LAST_COMMIT_MESSAGE" value="-4-" />
+  </component>
+</project>
