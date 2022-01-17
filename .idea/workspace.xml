@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="60dfe20e-38d4-4cb1-9026-91424c7acdfd" name="Default Changelist" comment="17" />
+    <list default="true" id="60dfe20e-38d4-4cb1-9026-91424c7acdfd" name="Default Changelist" comment="18">
+      <change afterPath="$PROJECT_DIR$/5 - Application Lifecycle Management/deployment_definition.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3 - Scheduling/affinity_lab.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/3 - Scheduling/affinity_lab.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5 - Application Lifecycle Management/commands.txt" beforeDir="false" afterPath="$PROJECT_DIR$/5 - Application Lifecycle Management/commands.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +14,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="23QjbiMLnjlVmnGjx2dMFZEvdGc" />
   <component name="ProjectLevelVcsManager">
@@ -21,7 +29,8 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/3 - Scheduling" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -37,6 +46,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1641673277994</updated>
+      <workItem from="1642395598706" duration="2655000" />
     </task>
     <task id="LOCAL-00001" summary="09-01-2022">
       <created>1641708024819</created>
@@ -101,8 +111,18 @@
       <option name="project" value="LOCAL" />
       <updated>1642395567972</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="18">
+      <created>1642395612065</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1642395612065</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -114,7 +134,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="09-01-2022" />
@@ -126,6 +145,7 @@
     <MESSAGE value="16/01/2022" />
     <MESSAGE value="16/01/2022--" />
     <MESSAGE value="17" />
-    <option name="LAST_COMMIT_MESSAGE" value="17" />
+    <MESSAGE value="18" />
+    <option name="LAST_COMMIT_MESSAGE" value="18" />
   </component>
 </project>

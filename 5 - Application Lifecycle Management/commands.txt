@@ -1,3 +1,16 @@
+CREATE:
+kubectl create -f deploy.yaml
+
+GET:
+kubectl get deployments
+
+UPDATE:
+kubectl apply -f deploy.yaml
+kubectl set image deployment/myapp-deployment nginx=nginx:1.9.1
+
+STATUS:
 kubectl rollout status deployment/myapp-deployment
 kubectl rollout history deployment/myapp-deployment
 
+ROLLBACK:
+kubectl rollout undo deployment/myapp-deployment
