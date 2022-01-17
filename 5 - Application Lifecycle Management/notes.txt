@@ -1,0 +1,3 @@
+Deployment Strategy:
+- Recreate
+- Rolling Update (default)
