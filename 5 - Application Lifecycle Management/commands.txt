@@ -17,3 +17,11 @@ kubectl rollout undo deployment/myapp-deployment
 
 
 kubectl create configmap webapp-config-map --from-literal=APP_COLOR=darkblue
+
+kubectl create secret generic
+    <secret-name> --from-literal=<key>=<value>
+
+kubectl create secret generic \
+    app-secret --from-literal=DB_Host=mys \
+               --from-literal=DB_User=root \
+               --from-literal=DB_Password=paswrd
