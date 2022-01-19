@@ -11,4 +11,6 @@ spec:
     env:
       - name: APP_COLOR
         valueFrom:
-          secretKeyRef:
+          configMapKeyRef:
+            name: app-config
+            key: APP_COLOR

@@ -8,7 +8,6 @@ spec:
     image: simple-webapp-color
     ports:
       - containerPort: 8080
-    env:
-      - name: APP_COLOR
-        valueFrom:
-          secretKeyRef:
+    envFrom:
+      - configMapRef:
+          name: app-config

@@ -14,3 +14,6 @@ kubectl rollout history deployment/myapp-deployment
 
 ROLLBACK:
 kubectl rollout undo deployment/myapp-deployment
+
+
+kubectl create configmap webapp-config-map --from-literal=APP_COLOR=darkblue
