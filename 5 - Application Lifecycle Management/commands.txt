@@ -25,3 +25,13 @@ kubectl create secret generic \
     app-secret --from-literal=DB_Host=mys \
                --from-literal=DB_User=root \
                --from-literal=DB_Password=paswrd
+
+kubectl create secret generic \
+    app-secret --from-file=app_secret.properites
+
+kubectl get secrets
+kubectl describe secrets
+kubectl get secrets app-secret -o yaml
+
+echo -n 'paswrd' | base64
+echo -n 'cGFzd3Jk' | base64 --decode

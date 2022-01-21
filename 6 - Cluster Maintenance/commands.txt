@@ -1,0 +1,9 @@
+kubectl drain node01       move pods, NoSchedule
+kubectl cordon node01      NoSchedule
+kubectl uncordon node01    Schedule
+
+
+
+kubeadm upgrade plan
+kubeadm upgrade apply
+

@@ -1,0 +1,44 @@
+kube-controller-manager --pod-eviction-timeout=5m0s ...
+
+
+
+Kubernetes version:
+
+v1.11.3
+
+ v1   |   11  |   3
+MAJOR | MINOR | PATCH
+
+MINOR:
+- every few month
+- features
+- functionalities
+
+PATCH:
+- bug fixes
+
+v1.11.3-alpha    without features, only bug fixes
+v1.11.3-beta     the code tested, new features are enabled
+v1.11.3          main stable
+
+kube-apiserver        v1.13.4
+controller-manager    v1.13.4
+kube-scheduler        v1.13.4
+kubelet               v1.13.4
+kube-proxy            v1.13.4
+kubectl               v1.13.4
+
+ETCD CLUSTER          v3.2.18   }   different project
+
+CoreDNS               v1.1.3    }   different project
+
+
+
+kube-apiserver        v1.13.4          most higher version in the cluster
+controller-manager    v1.13.4          -1   v1.13     v1.12
+kube-scheduler        v1.13.4          -1   v1.13     v1.12
+kubelet               v1.13.4          -2   v1.13     v1.12     v1.11
+kube-proxy            v1.13.4          -2   v1.13     v1.12     v1.11
+kubectl               v1.13.4     +1...-1   v1.14     v1.13     v1.12
+
+

@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="60dfe20e-38d4-4cb1-9026-91424c7acdfd" name="Default Changelist" comment="18-01-1">
+    <list default="true" id="60dfe20e-38d4-4cb1-9026-91424c7acdfd" name="Default Changelist" comment="18-01-2">
+      <change afterPath="$PROJECT_DIR$/5 - Application Lifecycle Management/pod_definition_env_all_secret_file.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5 - Application Lifecycle Management/pod_definition_env_mount_secret_file.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5 - Application Lifecycle Management/pod_definition_init_container.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5 - Application Lifecycle Management/pod_definition_multicontainer.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5 - Application Lifecycle Management/secret_definition.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6 - Cluster Maintenance/commands.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6 - Cluster Maintenance/notes.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/5 - Application Lifecycle Management/commands.txt" beforeDir="false" afterPath="$PROJECT_DIR$/5 - Application Lifecycle Management/commands.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5 - Application Lifecycle Management/pod_definition_env_secrets.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/5 - Application Lifecycle Management/pod_definition_env_secret_file_values.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642573161006</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="18-01-2">
+      <created>1642621625942</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1642621625942</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,6 +192,7 @@
     <MESSAGE value="18-01" />
     <MESSAGE value="19-01-1" />
     <MESSAGE value="18-01-1" />
-    <option name="LAST_COMMIT_MESSAGE" value="18-01-1" />
+    <MESSAGE value="18-01-2" />
+    <option name="LAST_COMMIT_MESSAGE" value="18-01-2" />
   </component>
 </project>
