@@ -1,0 +1,13 @@
+cat /etc/kubernetes/manifests/kube-apiserver.yaml
+
+openssl x509 -in /etc/kubernetes/pki/apiserver.crt -text -noout
+
+journalctl -u etcd.service -l
+
+kubectl logs etcd-master
+
+docker ps -a
+
+docker logs 87fc
+
+openssl x509 -in /etc/kubernetes/pki/etcd/server.crt -text

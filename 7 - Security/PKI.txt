@@ -1,1 +1,89 @@
-Public Key Infrastructure
+* Public Key Infrastructure
+
+CA
+
+- Generate Keys:
+openssl genrsa -out ca.key 2048
+ca.key
+
+- Certificate Signing Request:
+openssl req -new -key ca.key -subj "/CN=KUBERNETES-CA" -out ca.csr
+ca.csr
+
+- Sign Certificates:
+openssl x509 -req -in ca.csr -signkey ca.key -out ca.crt
+ca.crt
+
+ADMIN USER
+
+- Generate Keys:
+openssl genrsa -out admin.key 2048
+admin.key
+
+- Certificate Signing Request:
+openssl req -new -key admin.key -subj "/CN=kube-admin/O=system:masters" -out admin.csr      # add to MASTERs Group
+admin.csr
+
+- Sign Certificates:
+openssl x509 -req -in admin.csr -CA ca.crt -CAkey ca.key -out admin.crt
+admin.crt
+
+
+========================================================================================================================
+
+curl https://kube-apiserver:6443/api/v1/pods \
+    --key admin.key --cert admin.crt \
+    --cacert ca.crt
+
+OR
+
+kube-config.yaml
+---
+apiVersion: v1
+clusters:
+- cluster:
+    certificate-authority: ca.crt
+    server: https://kube-apiserver:6443
+  name: kubernetes
+kind: Config
+users:
+- name: kubernetes-admin
+  user:
+    client-certificate: admin.crt
+    client-key: admin.key
+
+
+========================================================================================================================
+KUBE API SERVER
+
+- Generate Keys:
+openssl genrsa -out apiserver.key 2048
+apiserver.key
+
+- Certificate Signing Request:
+openssl req -new -key apiserver.key -subj "/CN=kube-apiserver" -out apiserver.csr -config openssl.cnf
+apiserver.csr
+
+OpenSSL Config File:
+---
+[req]
+req_extensions = v3_req
+distinguished_name = req_distinguished_name
+[ v3_req ]
+basicConstraints = CA:FALSE
+keyUsage = nonRepudiation,
+subjectAltName = @alt_names
+[alt_names]
+DNS.1 = kubernetes
+DNS.2 = kubernetes.default
+DNS.3 = kubernetes.default.svc
+DNS.4 = kubernetes.default.svc.cluster.local
+IP.1 = 10.96.0.1
+IP.2 = 172.17.0.87
+
+
+- Sign Certificates:
+openssl x509 -req -in apiserver.csr -CA ca.crt -CAkey ca.key -out apiserver.crt
+apiserver.crt
+
+

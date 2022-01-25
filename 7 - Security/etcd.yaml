@@ -1,0 +1,17 @@
+- etcd
+   - --advertise-client-urls=https://127.0.0.1:2379
+   - --key-file=/path-to-certs/etcdserver.key
+   - --cert-file=/path-to-certs/etcdserver.crt
+   - --client-cert-auth=true
+   - --data-dir=/var/lib/etcd
+   - --initial-advertise-peer-urls=https://127.0.0.1:2380
+   - --initial-cluster=master=https://127.0.0.1:2380
+   - --listen-client-urls=https://127.0.0.1:2379
+   - --listen-peer-urls=https://127.0.0.1:2380
+   - --name=master
+   - --peer-cert-file=/path-to-certs/etcdpeer1.crt
+   - --peer-client-cert-auth=true
+   - --peer-key-file=/etc/kubernetes/pki/etcd/peer.key
+   - --peer-trusted-ca-file=/etc/kubernetes/pki/etcd/ca/crt
+   - --snapshot-count=10000
+   - --trusted-ca-file=/etc/kubernetes/pki/etcd/ca.crt
