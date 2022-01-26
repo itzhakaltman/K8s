@@ -134,3 +134,32 @@ curl -v -k https://localhost:6443/api/v1/pods -u "user1:password123"
 2. Review Requests
 3. Approve Requests
 4. Share Certs to Users
+
+
+openssl genrsa -out jane.key 2048
+
+openssl req -new -key jane.key -subj "/CN=jane" -out jane.csr
+
+kubectl get csr
+
+kubectl certificate approve jane
+
+kubectl get csr jane -o yaml
+# echo "LS0...Qo=" | base64 --decode
+
+
+cat /etc/kubernetes/manifests/kube-controller-manager.yaml
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -20,3 +20,39 @@ kubectl get csr -jane -o yaml
 
 kubectl certificate approve jane
 
+========================================================================================================================
+
+curl https://my-kube-playground:6443/api/v1/pods \
+ --key admin.key
+ --cert admin.crt
+ --cacert ca.crt
+
+ OR
+
+kubectl get pods
+    --server my-kube-playground:6443
+    --client-key admin.key
+    --client-certificate admin.crt
+    --certificate-authority ca.crt
+
+
+
+$HOME/.kube/config
+--server my-kube-playground:6443
+--client-key admin.key
+--client-certificate admin.crt
+--certificate-authority ca.crt
+
+
+kubectl config view
+
+kubectl config view --kubeconfig=my-custom-config
+
+kubectl config use-context prod-user@production
+
+kubectl config -h
+
+
+cat ca.crt | base64
+
+# echo "LS0...Qo=" | base64 --decode
