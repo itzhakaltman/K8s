@@ -129,3 +129,8 @@ Once created, you may authenticate into the kube-api server using the users cred
 curl -v -k https://localhost:6443/api/v1/pods -u "user1:password123"
 
 * * * * * * * * * * *
+
+1. Create CertificateSigningRequest Object
+2. Review Requests
+3. Approve Requests
+4. Share Certs to Users
