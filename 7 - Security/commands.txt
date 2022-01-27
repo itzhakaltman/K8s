@@ -21,6 +21,8 @@ kubectl get csr -jane -o yaml
 kubectl certificate approve jane
 
 ========================================================================================================================
+curl https://kube-master:6443/version
+
 
 curl https://my-kube-playground:6443/api/v1/pods \
  --key admin.key
@@ -56,3 +58,10 @@ kubectl config -h
 cat ca.crt | base64
 
 # echo "LS0...Qo=" | base64 --decode
+
+
+Use Custom Context:
+kubectl config --kubeconfig=/root/my-kube-config use-context research
+
+Check Current:
+kubectl config --kubeconfig=/root/my-kube-config current-context

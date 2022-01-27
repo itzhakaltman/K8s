@@ -150,15 +150,62 @@ kubectl get csr jane -o yaml
 
 cat /etc/kubernetes/manifests/kube-controller-manager.yaml
 
+========================================================================================================================
+
+API Groups:
+
+/metrics
+/healthz
+/version
+/api          -  core group
+/apis         -  named group
+/logs
 
 
+core    /api    /v1    namespaces
+                       pods
+                       rs
+                       events
+                       endpoints
+                       nodes
+                       bindings
+                       PV
+                       PVC
+                       configmaps
+                       secrets
+                       services
+
+named    /apis    /apps    /v1    /deployments    list
+                                                  get
+                                                  create
+                                                  delete
+                                                  update
+                                                  watch
+
+                                  /replicasets
+                                  /statefulsets
+
+                  /extensions
+                  /networking.k8s.io    /v1    /networkpolicies
+
+                  /storage.k8s.io
+                  /authentication.k8s.io
+
+                  /certificates.k8s.io    /v1    /certificatesigningrequests
+
+                               |                      |
+                          API Groups                Verbs
+                                          |
+                                      Resources
+
+curl http://localhost:6443 -k
+
+curl http://localhost:6443/apis -k | grep "name"
 
 
+curl http://localhost:8001 -k                         Actor -> Kubectl Proxy -> Kube ApiServer
 
-
-
-
-
+kube proxy != kubectl proxy
 
 
 

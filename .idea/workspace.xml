@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="60dfe20e-38d4-4cb1-9026-91424c7acdfd" name="Default Changelist" comment="260101">
-      <change afterPath="$PROJECT_DIR$/7 - Security/HOME-kube-config.yaml" afterDir="false" />
+    <list default="true" id="60dfe20e-38d4-4cb1-9026-91424c7acdfd" name="Default Changelist" comment="260102">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/7 - Security/certificate_signing_request_object.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/7 - Security/certificate_signing_request_object.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/7 - Security/commands.txt" beforeDir="false" afterPath="$PROJECT_DIR$/7 - Security/commands.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/7 - Security/notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/7 - Security/notes.txt" afterDir="false" />
     </list>
@@ -203,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643176482824</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="260102">
+      <created>1643226770006</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1643226770006</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,6 +248,7 @@
     <MESSAGE value="2401" />
     <MESSAGE value="2501" />
     <MESSAGE value="260101" />
-    <option name="LAST_COMMIT_MESSAGE" value="260101" />
+    <MESSAGE value="260102" />
+    <option name="LAST_COMMIT_MESSAGE" value="260102" />
   </component>
 </project>
