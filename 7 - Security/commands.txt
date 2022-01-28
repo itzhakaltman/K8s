@@ -65,3 +65,26 @@ kubectl config --kubeconfig=/root/my-kube-config use-context research
 
 Check Current:
 kubectl config --kubeconfig=/root/my-kube-config current-context
+
+========================================================================================================================
+
+kubectl create -f developer-role.yaml
+kubectl create -f devuser-developer-binding.yaml
+
+kubectl get roles
+kubectl get rolebindings
+kubectl describe role developer
+kubectl describe rolebinding devuser-developer-binding
+
+kubectl auth can-i create deployment
+kubectl auth can-i delete nodes
+
+kubectl auth can-i create deployment --as dev-user
+kubectl auth can-i delete nodes --as dev-user
+kubectl auth can-i create pods --as dev-user --namespace test
+
+kubectl get pods --as dev-user
+
+kubectl create role developer --namespace=default --verb=list,create,delete --resource=pods
+kubectl create rolebinding dev-user-binding --namespace=default --role=developer --user=dev-user
+

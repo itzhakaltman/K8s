@@ -208,5 +208,16 @@ curl http://localhost:8001 -k                         Actor -> Kubectl Proxy -> 
 kube proxy != kubectl proxy
 
 
+========================================================================================================================
+
+Authorization Mechanisms:                      ExecStart=/usr/local/bin/kube-apiserver \\
+- Node Authorizer                                --authorization-mode=AlwaysAllow
+- ABAC (Attribute Based)
+- RBAC
+- Webhook (ex. Open Policy Agent)
+- AlwaysAllow                          ---      default
+- AlwaysDeny
+
+
 
 
