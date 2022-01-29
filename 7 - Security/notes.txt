@@ -220,4 +220,17 @@ Authorization Mechanisms:                      ExecStart=/usr/local/bin/kube-api
 
 
 
+========================================================================================================================
+
+kubectl create serviceaccount dashboard-sa
+
+kubectl get serviceaccount
+
+kubectl describe serviceaccount dashboard-sa                         TOKEN STORED INSIDE THE SECRET
+
+kubectl get serviceaccount
+
+curl https://192.168.56.70:6443/api - insecure
+     --header "Authorization: Bearer eyJhbG..."
+
 

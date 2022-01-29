@@ -88,3 +88,24 @@ kubectl get pods --as dev-user
 kubectl create role developer --namespace=default --verb=list,create,delete --resource=pods
 kubectl create rolebinding dev-user-binding --namespace=default --role=developer --user=dev-user
 
+kubectl api-resources --namespaced=true
+kubectl api-resources --namespaced=false
+
+========================================================================================================================
+
+kubectl create serviceaccount dashboard-sa
+
+kubectl get serviceaccount
+
+kubectl describe serviceaccount dashboard-sa                         TOKEN
+
+kubectl describe secret dashboard-sa-token-kbbdm
+
+
+
+
+
+
+
+
+
