@@ -238,6 +238,19 @@ curl https://192.168.56.70:6443/api - insecure
 
 Images:
 
-image: nginx  ==  image: library/nginx
+image: nginx                        Image/Repository
+image: library/nginx                User/Account
+image: docker.io/library/nginx      Registry (or Private Registry)
+
+
+Google Registry:
+gcr.io/kubernetes-e2e-test-images/dnsutils
+
+
+kubectl create secret docker-registry regcred \
+   --docker-server=private-registry.io \
+   --docker-username=registry-user \
+   --docker-password=registry-password \
+   --docker-email=registry-user@org.com
 
 
