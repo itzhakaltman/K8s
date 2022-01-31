@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="60dfe20e-38d4-4cb1-9026-91424c7acdfd" name="Default Changelist" comment="300101">
-      <change afterPath="$PROJECT_DIR$/7 - Security/network_policy.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/7 - Security/pod_with_docker_registry_secret.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/7 - Security/pod_with_security_context.yaml" afterDir="false" />
+    <list default="true" id="60dfe20e-38d4-4cb1-9026-91424c7acdfd" name="Default Changelist" comment="300102">
+      <change afterPath="$PROJECT_DIR$/7 - Security/network_policy_ex.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/7 - Security/notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/7 - Security/notes.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -238,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643523623584</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="300102">
+      <created>1643571564942</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1643571564943</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,7 +261,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="11-01-2022" />
     <MESSAGE value="12-01-2022" />
     <MESSAGE value="14-01-2022" />
     <MESSAGE value="-4-" />
@@ -282,6 +285,7 @@
     <MESSAGE value="280101" />
     <MESSAGE value="290101" />
     <MESSAGE value="300101" />
-    <option name="LAST_COMMIT_MESSAGE" value="300101" />
+    <MESSAGE value="300102" />
+    <option name="LAST_COMMIT_MESSAGE" value="300102" />
   </component>
 </project>
