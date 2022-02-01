@@ -1,1 +1,41 @@
-{}
+Docker:
+
+docker volume create data_volume
+
+docker run -v data_volume:/var/lib/mysql mysql
+
+docker run -v data_volume2:/var/lib/mysql mysql
+
+docker run -v /data/mysql:/var/lib/mysql mysql
+
+docker run \
+--mount type=bind,source=/data/mysql,target=/var/lib/mysql mysql
+
+Storage Drivers:
+- AUFS
+- ZFS
+- BTRFS
+- Device Mapper
+- Overlay
+- Overlay2
+
+Volume Drivers:                   # Volume Driver Plugins
+ - Local                          # default
+ - Azure File Storage
+ - Convoy
+ - DigitalOcean Block Storage
+ - Flocker
+ - gce-docker
+ - GlusterFS
+ - NetApp
+ - RexRay
+ - Portworx
+ - VMware vSphere Storage
+
+========================================================================================================================
+
+docker / rkt / cri-o                   <->    Container Runtime Interface    <->    K8s
+calico / weaveworks / flannel          <->    Container Network Interface    <->    K8s
+portworx / Dell EMC / GlusterFS        <->    Container Runtime Interface    <->    K8s
+
+========================================================================================================================
