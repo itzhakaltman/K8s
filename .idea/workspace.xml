@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="60dfe20e-38d4-4cb1-9026-91424c7acdfd" name="Default Changelist" comment="010201">
+    <list default="true" id="60dfe20e-38d4-4cb1-9026-91424c7acdfd" name="Default Changelist" comment="010202">
+      <change afterPath="$PROJECT_DIR$/8 - Storage/pod_with_host_based_volume.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8 - Storage/pv-definition.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8 - Storage/pvc-definition.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/8 - Storage/notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/8 - Storage/notes.txt" afterDir="false" />
     </list>
@@ -256,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643695598912</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="010202">
+      <created>1643744190107</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1643744190107</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -275,7 +285,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="-4-" />
     <MESSAGE value="16/01" />
     <MESSAGE value="16/01/2022" />
     <MESSAGE value="16/01/2022--" />
@@ -300,6 +309,7 @@
     <MESSAGE value="300102" />
     <MESSAGE value="310101" />
     <MESSAGE value="010201" />
-    <option name="LAST_COMMIT_MESSAGE" value="010201" />
+    <MESSAGE value="010202" />
+    <option name="LAST_COMMIT_MESSAGE" value="010202" />
   </component>
 </project>

@@ -39,3 +39,9 @@ calico / weaveworks / flannel          <->    Container Network Interface    <->
 portworx / Dell EMC / GlusterFS        <->    Container Runtime Interface    <->    K8s
 
 ========================================================================================================================
+
+NFS, Ceph, Scaleio, GlusterFS
+
+
+
+persistentVolumeReclaimPolicy: Retain / Delete / Recycle
