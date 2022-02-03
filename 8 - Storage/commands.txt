@@ -1,1 +1,2 @@
-{}
+kubectl exec <pod_name> -- cat /log/app.log
+

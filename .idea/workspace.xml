@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="60dfe20e-38d4-4cb1-9026-91424c7acdfd" name="Default Changelist" comment="010202">
-      <change afterPath="$PROJECT_DIR$/8 - Storage/pod_with_host_based_volume.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8 - Storage/pv-definition.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8 - Storage/pvc-definition.yaml" afterDir="false" />
+    <list default="true" id="60dfe20e-38d4-4cb1-9026-91424c7acdfd" name="Default Changelist" comment="020201">
+      <change afterPath="$PROJECT_DIR$/8 - Storage/pod_with_pvc.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/8 - Storage/notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/8 - Storage/notes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/8 - Storage/commands.txt" beforeDir="false" afterPath="$PROJECT_DIR$/8 - Storage/commands.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -266,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643744190107</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="020201">
+      <created>1643781957542</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1643781957542</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,7 +290,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="16/01" />
     <MESSAGE value="16/01/2022" />
     <MESSAGE value="16/01/2022--" />
     <MESSAGE value="17" />
@@ -310,6 +314,7 @@
     <MESSAGE value="310101" />
     <MESSAGE value="010201" />
     <MESSAGE value="010202" />
-    <option name="LAST_COMMIT_MESSAGE" value="010202" />
+    <MESSAGE value="020201" />
+    <option name="LAST_COMMIT_MESSAGE" value="020201" />
   </component>
 </project>
