@@ -1,2 +1,6 @@
 kubectl exec <pod_name> -- cat /log/app.log
 
+gcloud beta compute disks create \
+  --size 1GB
+  --region us-east1
+  pd-disk
