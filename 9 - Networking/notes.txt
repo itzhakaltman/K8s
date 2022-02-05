@@ -1,0 +1,11 @@
+kubectl
+
+kube-api                   6443
+ETCD                       2379
+ETCD                       2380
+kubelet                    10250
+kube-scheduler             10251
+kube-controller-manager    10252
+
+Services                   30000-32767
+
