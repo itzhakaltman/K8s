@@ -1,0 +1,23 @@
+# Create veth pair
+
+ip link add ...
+
+# Attach veth pair
+
+ip link set ...
+ip link set ...
+
+# Assign IP Address
+
+ip -n <namespace> addr add ...
+ip -n <namespace> route add ...
+
+# bring Up Interface
+
+ip -n <namespace> link set ...
+
+DEL)
+
+# Delete veth pair
+
+ip link del ...
