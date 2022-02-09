@@ -81,5 +81,7 @@ ps -aux | grep kubelet
 
 --network-plugin
 
-ls /etc/cni/net.d/
+ls /etc/cni/net.d/                     CNI in use
+
+ip addr show weave
 
