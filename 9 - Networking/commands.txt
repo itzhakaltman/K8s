@@ -85,3 +85,6 @@ ls /etc/cni/net.d/                     CNI in use
 
 ip addr show weave
 
+------------------------------------------------------------------------------------------------------------------------
+
+cat /etc/kubernetes/manifests/kube-apiserver.yaml | grep cluster-ip-range

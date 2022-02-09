@@ -70,4 +70,11 @@ ls /etc/cni/net.d
 
 The CNI binaries are located under /opt/cni/bin by default.
 
+------------------------------------------------------------------------------------------------------------------------
 
+db-service.dev.svc.cluster.local
+Service Name | Namespace | Service (Subdomain) | Domain
+
+
+10-244-2-5.dev.pod.cluster.local
+Pod IP | Namespace | Pod (Subdomain) | Domain
