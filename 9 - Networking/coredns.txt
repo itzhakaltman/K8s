@@ -1,0 +1,50 @@
+cat /etc/coredns/Corefile
+
+
+kubectl describe configmap coredns -n kube-system
+
+Name:         coredns
+Namespace:    kube-system
+Labels:       <none>
+Annotations:  <none>
+
+Data
+====
+Corefile:
+----
+.:53 {
+    errors
+    health {
+       lameduck 5s
+    }
+    ready
+    kubernetes cluster.local in-addr.arpa ip6.arpa {
+       pods insecure
+       fallthrough in-addr.arpa ip6.arpa
+       ttl 30
+    }
+    prometheus :9153
+    forward . /etc/resolv.conf {
+       max_concurrent 1000
+    }
+    cache 30
+    loop
+    reload
+    loadbalance
+}
+
+
+BinaryData
+====
+
+Events:  <none>
+
+
+
+------------------------------------------------------------------------------------------------------------------------
+
+cat /var/lib/kubelet/config.yaml
+...
+clusterDNS:
+- 10.96.0.10
+clusterDomain: cluster.local
