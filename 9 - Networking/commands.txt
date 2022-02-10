@@ -88,3 +88,6 @@ ip addr show weave
 ------------------------------------------------------------------------------------------------------------------------
 
 cat /etc/kubernetes/manifests/kube-apiserver.yaml | grep cluster-ip-range
+
+kubectl exec -it hr -- nslookup mysql.payroll > /root/CKA/nslookup.out
+
