@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="60dfe20e-38d4-4cb1-9026-91424c7acdfd" name="Default Changelist" comment="100202">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/9 - Networking/commands.txt" beforeDir="false" afterPath="$PROJECT_DIR$/9 - Networking/commands.txt" afterDir="false" />
-    </list>
+    <list default="true" id="60dfe20e-38d4-4cb1-9026-91424c7acdfd" name="Default Changelist" comment="100203" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -334,7 +331,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644472886908</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="100203">
+      <created>1644524709117</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1644524709117</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -353,7 +357,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="18-01-2" />
     <MESSAGE value="2101" />
     <MESSAGE value="2201" />
     <MESSAGE value="2301" />
@@ -378,6 +381,7 @@
     <MESSAGE value="090201" />
     <MESSAGE value="090202" />
     <MESSAGE value="100202" />
-    <option name="LAST_COMMIT_MESSAGE" value="100202" />
+    <MESSAGE value="100203" />
+    <option name="LAST_COMMIT_MESSAGE" value="100203" />
   </component>
 </project>
