@@ -91,3 +91,10 @@ cat /etc/kubernetes/manifests/kube-apiserver.yaml | grep cluster-ip-range
 
 kubectl exec -it hr -- nslookup mysql.payroll > /root/CKA/nslookup.out
 
+------------------------------------------------------------------------------------------------------------------------
+INGRESS
+
+kubectl create ingress <ingress-name> --rule="host/path=service:port"
+
+kubectl create ingress ingress-test --rule="wear.my-online-store.com/wear*=wear-service:80"
+
