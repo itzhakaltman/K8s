@@ -98,3 +98,8 @@ kubectl create ingress <ingress-name> --rule="host/path=service:port"
 
 kubectl create ingress ingress-test --rule="wear.my-online-store.com/wear*=wear-service:80"
 
+kubectl create configmap nginx-configuration --namespace ingress-space
+
+kubectl create serviceaccount ingress-serviceaccount --namespace ingress-space
+
+kubectl expose deployment ingress-controller --type=NodePort --port=80 --name=ingress --dry-run=client -o yaml > ingress.yaml

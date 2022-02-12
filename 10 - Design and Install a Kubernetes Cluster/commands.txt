@@ -1,0 +1,6 @@
+mkdir -p $HOME/.kube
+sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
+sudo chown $(id -u):$(id -g) $HOME/.kube/config
+
+
+kubeadm init --apiserver-cert-extra-sans=controlplane --apiserver-advertise-address 10.10.232.3 --pod-network-cidr=10.244.0.0/16

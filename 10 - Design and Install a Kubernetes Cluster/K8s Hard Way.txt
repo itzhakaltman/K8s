@@ -1,0 +1,9 @@
+https://www.youtube.com/watch?v=uUupRagM7m0&list=PL2We04F3Y_41jYdadX55fdJplDvgNGENo
+
+https://github.com/mmumshad/kubernetes-the-hard-way
+
+
+
+https://github.com/kodekloudhub/certified-kubernetes-administrator-course
+
+https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/
