@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="60dfe20e-38d4-4cb1-9026-91424c7acdfd" name="Default Changelist" comment="110202">
-      <change afterPath="$PROJECT_DIR$/10 - Design and Install a Kubernetes Cluster/K8s Hard Way.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10 - Design and Install a Kubernetes Cluster/commands.txt" afterDir="false" />
+    <list default="true" id="60dfe20e-38d4-4cb1-9026-91424c7acdfd" name="Default Changelist" comment="120201">
+      <change afterPath="$PROJECT_DIR$/13 - Troubleshooting/commands.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13 - Troubleshooting/notes.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/9 - Networking/4-ingress-svc.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/9 - Networking/4-ingress-svc.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/9 - Networking/commands.txt" beforeDir="false" afterPath="$PROJECT_DIR$/9 - Networking/commands.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -365,7 +363,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644610897124</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="120201">
+      <created>1644652782450</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1644652782451</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -384,7 +389,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="2301" />
     <MESSAGE value="2401" />
     <MESSAGE value="2501" />
     <MESSAGE value="260101" />
@@ -409,6 +413,7 @@
     <MESSAGE value="100203" />
     <MESSAGE value="110201" />
     <MESSAGE value="110202" />
-    <option name="LAST_COMMIT_MESSAGE" value="110202" />
+    <MESSAGE value="120201" />
+    <option name="LAST_COMMIT_MESSAGE" value="120201" />
   </component>
 </project>
