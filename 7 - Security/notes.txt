@@ -220,6 +220,7 @@ Authorization Mechanisms:                      ExecStart=/usr/local/bin/kube-api
 
 
 
+
 ========================================================================================================================
 
 kubectl create serviceaccount dashboard-sa
@@ -253,4 +254,8 @@ kubectl create secret docker-registry regcred \
    --docker-password=registry-password \
    --docker-email=registry-user@org.com
 
+========================================================================================================================
 
+kubectl api-resources --namespaced=true
+
+kubectl api-resources --namespaced=false
