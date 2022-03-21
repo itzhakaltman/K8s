@@ -1,5 +1,5 @@
 + RBAC
-- Kubeadm
++ Kubeadm
 - Version update (kubeadm)
 - etcd backup and restore
 - rolling updates and rollbacks
