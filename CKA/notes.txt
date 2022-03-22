@@ -1,6 +1,6 @@
 + RBAC
 + Kubeadm
-- Version update (kubeadm)
++ Version update (kubeadm)
 - etcd backup and restore
 - rolling updates and rollbacks
 - ingress
