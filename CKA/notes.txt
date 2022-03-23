@@ -2,6 +2,6 @@
 + Kubeadm
 + Version update (kubeadm)
 + etcd backup and restore
-- rolling updates and rollbacks
++ rolling updates and rollbacks
 - ingress
 - cluster and nodes logging (container stdout and stderr logs)
