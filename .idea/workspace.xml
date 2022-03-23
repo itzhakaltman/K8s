@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="60dfe20e-38d4-4cb1-9026-91424c7acdfd" name="Default Changelist" comment="210301">
+    <list default="true" id="60dfe20e-38d4-4cb1-9026-91424c7acdfd" name="Default Changelist" comment="220301">
+      <change afterPath="$PROJECT_DIR$/6 - Cluster Maintenance/manual.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6 - Cluster Maintenance/notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/6 - Cluster Maintenance/notes.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CKA/notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CKA/notes.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,13 +54,6 @@
       <option name="presentableId" value="Default" />
       <updated>1641673277994</updated>
       <workItem from="1642395598706" duration="2667000" />
-    </task>
-    <task id="LOCAL-00003" summary="12-01-2022">
-      <created>1641967903664</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1641967903664</updated>
     </task>
     <task id="LOCAL-00004" summary="14-01-2022">
       <created>1642188296635</created>
@@ -398,7 +391,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647841348865</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="220301">
+      <created>1647977378472</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1647977378472</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -417,7 +417,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="290101" />
     <MESSAGE value="300101" />
     <MESSAGE value="300102" />
     <MESSAGE value="310101" />
@@ -442,6 +441,7 @@
     <MESSAGE value="190301" />
     <MESSAGE value="200301" />
     <MESSAGE value="210301" />
-    <option name="LAST_COMMIT_MESSAGE" value="210301" />
+    <MESSAGE value="220301" />
+    <option name="LAST_COMMIT_MESSAGE" value="220301" />
   </component>
 </project>
