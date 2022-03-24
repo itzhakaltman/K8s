@@ -1,0 +1,1 @@
+ssh node01 "service kubelet start"

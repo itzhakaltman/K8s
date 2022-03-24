@@ -1,0 +1,12 @@
+Describe node
+
+systemctl status kubelet
+service kubelet status
+ssh node01 "service kubelet start"
+
+top
+df -h
+
+sudo journalctl -u kubelet
+
+openssl x509 -in /var/lib/kubelet/worker-1.crt -text

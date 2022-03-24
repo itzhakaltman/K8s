@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="60dfe20e-38d4-4cb1-9026-91424c7acdfd" name="Default Changelist" comment="230301">
+    <list default="true" id="60dfe20e-38d4-4cb1-9026-91424c7acdfd" name="Default Changelist" comment="230302">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5 - Application Lifecycle Management/notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/5 - Application Lifecycle Management/notes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CKA/notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CKA/notes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13 - Troubleshooting/commands.txt" beforeDir="false" afterPath="$PROJECT_DIR$/13 - Troubleshooting/commands.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13 - Troubleshooting/notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/13 - Troubleshooting/notes.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,13 +54,6 @@
       <option name="presentableId" value="Default" />
       <updated>1641673277994</updated>
       <workItem from="1642395598706" duration="2667000" />
-    </task>
-    <task id="LOCAL-00005" summary="-4-">
-      <created>1642248986706</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1642248986706</updated>
     </task>
     <task id="LOCAL-00006" summary="16/01">
       <created>1642312494276</created>
@@ -398,7 +391,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648019125238</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="230302">
+      <created>1648022840899</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1648022840900</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -417,7 +417,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="300102" />
     <MESSAGE value="310101" />
     <MESSAGE value="010201" />
     <MESSAGE value="010202" />
@@ -442,6 +441,7 @@
     <MESSAGE value="210301" />
     <MESSAGE value="220301" />
     <MESSAGE value="230301" />
-    <option name="LAST_COMMIT_MESSAGE" value="230301" />
+    <MESSAGE value="230302" />
+    <option name="LAST_COMMIT_MESSAGE" value="230302" />
   </component>
 </project>
