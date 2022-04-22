@@ -1,0 +1,60 @@
+YAML - Yet Another Markup Language
+
+JSON - JavaScript Object Notation
+
+------------------------------------------------------------------------------------------------------------------------
+
+---
+List of Cars:
+-  car registration number: 011
+   car name:  Civic
+   owner of car: Zaim Khan
+   model number: xyz
+   price: 20 lacs
+   color: black
+-  car registration number: 012
+   car name:  Mehran
+   owner of car: Sara Khan
+   model number: xyzasd21
+   price: 10 lacs
+   color: white
+-  car registration number: 013
+   car name:  Cultus
+   owner of car: Taimur Ali
+   model number: xy12z
+   price: 15 lacs
+   color: grey
+...
+
+------------------------------------------------------------------------------------------------------------------------
+
+{
+"List of Cars": [
+  {
+    "car registration number": "011",
+    "car name": "Civic",
+    "owner of car": "Zaim Khan",
+    "model number": "xyz",
+    "price": "20 lacs",
+    "color": "black"
+  },
+  {
+    "car registration number": "012",
+    "car name": "Mehran",
+    "owner of car": "Sara Khan",
+    "model number": "xyzasd21",
+    "price": "10 lacs",
+    "color": "white"
+  },
+  {
+    "car registration number": "013",
+    "car name": "Cultus",
+    "owner of car": "Taimur Ali",
+    "model number": "xy12z",
+    "price": "15 lacs",
+    "color": "grey"
+  }
+]
+}
+
+------------------------------------------------------------------------------------------------------------------------
