@@ -92,10 +92,28 @@ Sorting:
 ---
 kubectl get nodes --sort-by=.metadata.name
 kubectl get nodes --sort-by=.status.capacity.cpu
+kubectl get pv --sort-by=.spec.capacity.storage
 ...
 
 
 $.status.containerStatuses[?(@.name=="redis-container")].restartCount
 
+kubectl get pv --sort-by=.spec.capacity.storage -o=custom-columns=NAME:.metadata.name,CAPACITY:.spec.capacity.storage
+
+------------------------------------------------------------------------------------------------------------------------
+
+kubectl get nodes -o=jsonpath='{.items[*].metadata.name}{"\n"}' > /opt/outputs/node_names.txt
+
+kubectl get nodes -o=jsonpath='{.items[*].status.nodeInfo.osImage}{"\n"}'
+
+kubectl config view --kubeconfig=/root/my-kube-config
+
+kubectl config view --kubeconfig=my-kube-config -o jsonpath="{.users[*].name}" > /opt/outputs/users.txt
+
+kubectl get pv --sort-by=.spec.capacity.storage > /opt/outputs/storage-capacity-sorted.txt
+
+kubectl get pv --sort-by=.spec.capacity.storage -o=custom-columns=NAME:.metadata.name,CAPACITY:.spec.capacity.storage > /opt/outputs/pv-and-capacity-sorted.txt
+
+kubectl config view --kubeconfig=my-kube-config -o jsonpath="{.contexts[?(@.context.user=='aws-user')].name}" > /opt/outputs/aws-context-name
 
 ------------------------------------------------------------------------------------------------------------------------
