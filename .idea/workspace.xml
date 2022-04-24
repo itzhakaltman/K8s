@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="60dfe20e-38d4-4cb1-9026-91424c7acdfd" name="Default Changelist" comment="230401">
+    <list default="true" id="60dfe20e-38d4-4cb1-9026-91424c7acdfd" name="Default Changelist" comment="230402">
+      <change afterPath="$PROJECT_DIR$/JSONPath/examples.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSONPath/notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/JSONPath/notes.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,13 +53,6 @@
       <option name="presentableId" value="Default" />
       <updated>1641673277994</updated>
       <workItem from="1642395598706" duration="2667000" />
-    </task>
-    <task id="LOCAL-00011" summary="---">
-      <created>1642400107651</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1642400107651</updated>
     </task>
     <task id="LOCAL-00012" summary="18-01">
       <created>1642486399566</created>
@@ -397,7 +390,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650670896287</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="230402">
+      <created>1650711027159</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1650711027159</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -416,7 +416,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="040201" />
     <MESSAGE value="050201" />
     <MESSAGE value="060201" />
     <MESSAGE value="080201" />
@@ -441,6 +440,7 @@
     <MESSAGE value="220401" />
     <MESSAGE value="220402" />
     <MESSAGE value="230401" />
-    <option name="LAST_COMMIT_MESSAGE" value="230401" />
+    <MESSAGE value="230402" />
+    <option name="LAST_COMMIT_MESSAGE" value="230402" />
   </component>
 </project>
